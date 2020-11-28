@@ -21,7 +21,6 @@ class IndexPost extends React.Component {
                 {items.node.image === null ? <div className="no-image">No Image</div> : <Img sizes={items.node.image.fluid} />}
 
                 <div className="details_inner">
-
                   <h2>
                     <Link to={`/${items.node.slug}`}>{items.node.name}</Link>
                   </h2>
@@ -33,7 +32,7 @@ class IndexPost extends React.Component {
                   <p>{items.node.details.childMarkdownRemark.excerpt}</p>
                   <div className="row">
                     <div className="col-sm-4 align-self-center">
-                      <span className="price">${items.node.price}</span>
+                      <span className="price"> ₦{items.node.price}</span>
                     </div>
                     <div className="col-sm-8 text-right align-self-center">
                       <a
@@ -65,7 +64,7 @@ const IndexPage = data => (
     <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
     <LatestBlogs data={data.data.allContentfulBlogs} />
     <div className="container">
-      <div className="text-center"><h2 className="with-underline">Latest Items</h2></div>
+      <div className="text-center"><h2 className="with-underline">Latest Products</h2></div>
       <IndexPost data={data}></IndexPost>
     </div>
     <Countdown data={data.data.contentfulDealCountDown} />

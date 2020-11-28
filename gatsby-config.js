@@ -1,13 +1,15 @@
 var dotenv = require("dotenv");
-dotenv.config();
+dotenv.config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 const { spaceId, accessToken, snipcart } = process.env;
 
 module.exports = {
   siteMetadata: {
-    title: `OneShopper`,
+    title: `Zusi Store`,
     description: `E-Commerce site with Gatsby and React`,
-    author: `@rohitguptab`,
+    author: `@caslify`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,20 +26,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OneShopper`,
+        name: `ZuriShop`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/oneshopper-logo.png`,
+        icon: `src/images/logo2.jpg`,
       },
     },
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId,
-        accessToken
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
     {

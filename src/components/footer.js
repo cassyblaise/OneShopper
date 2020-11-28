@@ -22,8 +22,8 @@ class Footer extends Component {
                         </div>
                         <div className="footer-bottom social-right-menu ">
                             <div className="site-info">
-                                ©2019 Oneshopper. All rights reserved.
-                            </div>
+                          ©<span>{new Date().getFullYear()}</span> Caslify. All right reserved.
+                        </div>
                         </div>
                     </div>
                 </div>
