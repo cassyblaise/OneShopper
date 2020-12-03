@@ -47,7 +47,7 @@ const ProductDetails = data => (
         <div className="row buynowinner">
           <div className="col-sm-2">
             <span className="price">
-              Price: ₦{data.data.contentfulProduct.price}
+              Price:₦{data.data.contentfulProduct.price}
             </span>
           </div>
           <div className="col-sm-10 text-left">
