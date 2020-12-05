@@ -1232,17 +1232,19 @@ a.header-logo {
 
 .social {
   padding: 2em;
+  text-align: center;
 }
 
 .social a {
   padding: 0.5em 0.5em 0.3em 0.5em;
   border-radius: 1em;
-  background-color: #fff;
+  background-color: #333;
+  color: #fff;
+  font-size: 40px;
   margin: 0.5em;
-  margin-bottom: 1em;
   width: 1em;
   height: 1em;
-  /*vertical-align: middle;*/
+  /*vertical-align: middle; */
   display: inline;
 }
 .site-footer .footer_inner {

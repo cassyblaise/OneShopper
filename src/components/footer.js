@@ -2,10 +2,9 @@ import React, { Component } from "react";
 import { Link } from "gatsby"
 import facebook from '../images/social/facebook.svg'
 import instagram from '../images/social/instagram.svg'
-import twitter from '../images/social/twitter.svg'
-import linkedin from '../images/social/linkedin.svg'
+//import twitter from '../images/social/twitter.svg'
+//import linkedin from '../images/social/linkedin.svg'
 import email from '../images/social/email.svg'
-
 
 class Footer extends Component {
     render() {
@@ -35,6 +34,22 @@ class Footer extends Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
+                <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <img
+                   src={instagram}
+                   alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="email" href="mailto:info@caslify.com.ng">
+                  <img 
+                    src={email}
+                    alt="email"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+
+                {/*
                 <a title="twitter" href="https://twitter.com/caslify" target="_blank" rel="noopener noreferrer">
                   <img
                     className="fas fa-lg"
@@ -43,13 +58,7 @@ class Footer extends Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                  <img
-                   src={instagram}
-                   alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
+                
                 <a title="linkedin" href="https://www.linkedin.com/company/caslify/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={linkedin}
@@ -57,14 +66,7 @@ class Footer extends Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="email" href="mailto:info@caslify.com.ng">
-                
-                  <img 
-                    src={email}
-                    alt="email"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
+                  */}
               </div>
                     <div className="footer-bottom social-right-menu ">
                         <div className="site-info">
