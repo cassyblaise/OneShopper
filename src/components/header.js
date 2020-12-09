@@ -5,7 +5,7 @@ import "../css/font-awesome.css"
 import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
 import SEO from "../components/seo"
-import logo from "../images/images.png"
+import logo from "../images/zusi3.png"
 
 const Header = ({ siteTitle }) => (
   <header className="site-header">

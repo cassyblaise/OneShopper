@@ -25,7 +25,7 @@ class Footer extends Component {
                                 </div>
                             </section>
                         </div>
-
+                    
                     <div className="column is-4 social">
                     <a title="facebook" href="https://www.facebook.com/Caslify" target="_blank" rel="noopener noreferrer">
                      <img

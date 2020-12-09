@@ -1231,7 +1231,7 @@ a.header-logo {
 }
 
 .social {
-  padding: 2em;
+  padding: 0.3em;
   text-align: center;
 }
 
@@ -1270,8 +1270,9 @@ a.header-logo {
   margin: 0;
 }
 a.header-logo img {
-  margin: 0;
-  width: 220px;
+ margin: 0;
+ height: 50px;
+ width: 420px;
 }
 .site-footer .menu-main-container {
   text-align: center;
@@ -1355,7 +1356,7 @@ footer.site-footer ul {
     margin: 0 5px 0 0;
   }
   .navbar-nav .nav-link {
-    font-size: 14px;
+    font-size: 15px;
   }
   .header-cart {
     position: absolute;
@@ -1375,6 +1376,9 @@ footer.site-footer ul {
   .site-footer .menu-main-container ul li a {
     font-size: 14px;
     padding: 0 6px;
+  }
+  .site-footer .social a {
+     padding: 0 6px;
   }
   .site-footer .footer-bottom {
     font-size: 14px;
