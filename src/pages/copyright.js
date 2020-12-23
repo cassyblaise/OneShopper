@@ -17,6 +17,7 @@ class Copyright extends React.Component {
                     <p>Zusi Skincare Company (“us”, “we”, or “our”) operates https://zusiskincare.com/ (the “Site”). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>
                     <p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at https://zusiskincare.com/</p>
                     
+                    <h2>Information Collection And Use</h2>
 
                     <p>While using our Site, we may ask you to provide us with certain personally identifiable 
                     information that can be used to contact or identify you. 

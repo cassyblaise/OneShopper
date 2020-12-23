@@ -27,21 +27,21 @@ class Footer extends Component {
                         </div>
                     
                     <div className="column is-4 social">
-                    <a title="facebook" href="https://www.facebook.com/Caslify" target="_blank" rel="noopener noreferrer">
+                    <a title="facebook" href="https://www.facebook.com/zusiorganicskincare/" target="_blank" rel="noopener noreferrer">
                      <img
                     src={facebook}
                     alt="Facebook"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="instagram" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a title="instagram" href="https://www.instagram.com/zusiorganicskincare/" target="_blank" rel="noopener noreferrer">
                   <img
                    src={instagram}
                    alt="Instagram"
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="email" href="mailto:info@caslify.com.ng">
+                <a title="email" href="mailto:services@zusiskincare.com">
                   <img 
                     src={email}
                     alt="email"
@@ -50,7 +50,7 @@ class Footer extends Component {
                 </a>
 
                 {/*
-                <a title="twitter" href="https://twitter.com/caslify" target="_blank" rel="noopener noreferrer">
+                <a title="twitter" href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -59,7 +59,7 @@ class Footer extends Component {
                   />
                 </a>
                 
-                <a title="linkedin" href="https://www.linkedin.com/company/caslify/" target="_blank" rel="noopener noreferrer">
+                <a title="linkedin" href="https://www.linkedin.com/company/" target="_blank" rel="noopener noreferrer">
                   <img
                     src={linkedin}
                     alt="linkedin"
@@ -70,7 +70,7 @@ class Footer extends Component {
               </div>
                     <div className="footer-bottom social-right-menu ">
                         <div className="site-info">
-                         ©<span>{new Date().getFullYear()}</span> Caslify. All right reserved.
+                         ©<span>{new Date().getFullYear()}</span> Zusi Skincare. All right reserved.
                         </div>
                         </div>
                     </div>
